@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
  file_put_contents("../vcards/$slug.vcf",generateVcard($c)); generateQR($slug);
  header('Location:/app/panel/');exit; }
 ?>
-<link rel="stylesheet" href="/app/css/style.css">
+<link rel="stylesheet href="/app/css/style.css">
 <div class="panel">
 <h1>Panel interno</h1>
 <form method="post" enctype="multipart/form-data">
