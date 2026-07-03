@@ -1,4 +1,13 @@
+
 <?php
+
+session_start();
+
+if (empty($_SESSION['logged'])) {
+    header('Location: /app/login.php');
+    exit;
+}
+
 require_once '../lib/utils.php';require_once '../lib/vcard.php';require_once '../lib/qr.php';
 $data='../data/contacts.json';$list=json_decode(file_get_contents($data),true)??[];$edit=$_GET['edit']??null;$cur=null;
 if($edit)foreach($list as $c)if($c['slug']===$edit)$cur=$c;
