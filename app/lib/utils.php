@@ -1,0 +1,1 @@
+<?php function slugFromEmail(string $email): string { return strtolower(explode("@", trim($email))[0]); }
