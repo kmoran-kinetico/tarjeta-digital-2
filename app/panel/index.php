@@ -34,7 +34,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 <input name="role" placeholder="Cargo" value="<?=$cur['role']??''?>">
 <input name="mobile" placeholder="Móvil" value="<?=$cur['mobile']??''?>">
 <input name="phone" placeholder="Teléfono" value="<?=$cur['phone']??''?>">
-<input name="email" placeholder="Email" value="<?=$cur['email']??''?>" <?= $cur?'readonly':''?>>
+<input name="email" placeholder="Email" value="<?=$cur['email']??''?>" <?= $cur?['email']:''?>>
 <input name="address" placeholder="Dirección" value="<?=$cur['address']??''?>">
 <input name="web" placeholder="Web" value="<?=$cur['web']??''?>">
 <label><strong>Logo de la empresa</strong><br><small>PNG o SVG · Transparente recomendado</small></label>
