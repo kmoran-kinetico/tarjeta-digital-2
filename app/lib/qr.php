@@ -6,13 +6,21 @@ function generateQR(string $slug)
         mkdir("../qrs", 0777, true);
     }
 
+    $url = "/app/contacto/?slug=" . $slug;
+
     $file = "../qrs/$slug.svg";
 
-    $api = "https://api.qrserver.com/v1/create-qr-code/?format=svg&size=600x600&data=test";
+    $api = "https://api.qrserver.com/v1/create-qr-code/?format=svg&size=600x600&data=" . urlencode($url);
 
-    $svg = @file_get_contents($api);
+    $ch = curl_init($api);
 
-    var_dump($svg !== false);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    exit;
+    $svg = curl_exec($ch);
+
+    curl_close($ch);
+
+    if ($svg) {
+        file_put_contents($file, $svg);
+    }
 }
