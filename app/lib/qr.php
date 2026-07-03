@@ -20,4 +20,3 @@ function generateQR(string $slug)
         file_get_contents($api)
     );
 }
-``
