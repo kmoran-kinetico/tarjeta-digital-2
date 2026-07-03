@@ -1,10 +1,27 @@
+<?php
+
 function generateQR(string $slug)
 {
     if (!is_dir("../qrs")) {
         mkdir("../qrs", 0777, true);
     }
 
-    file_put_contents("../qrs/test.txt", "funciona");
+    $url = "/app/contacto/?slug=" . $slug;
 
-    return;
+    $file = "../qrs/" . $slug . ".svg";
+
+    if (file_exists($file)) {
+        return;
+    }
+
+    $api = "https://api.qrserver.com/v1/create-qr-code/?format=svg&size=600x600&data=" . urlencode($url);
+
+    $svg = @file_get_contents($api);
+
+    if ($svg === false) {
+        error_log("No se pudo descargar el QR: " . $api);
+        return;
+    }
+
+    file_put_contents($file, $svg);
 }
