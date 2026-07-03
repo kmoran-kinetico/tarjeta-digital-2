@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-.css">
+
 
 <div class="panel">
     <h1>Acceso Panel</h1>
