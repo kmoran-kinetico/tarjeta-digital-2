@@ -7,6 +7,7 @@ function generateQR(string $slug)
     }
 
     $url = "/app/contacto/?slug=" . $slug;
+
     $file = "../qrs/$slug.svg";
 
     if (file_exists($file)) {
@@ -15,8 +16,9 @@ function generateQR(string $slug)
 
     $api = "https://api.qrserver.com/v1/create-qr-code/?format=svg&size=600x600&data=" . urlencode($url);
 
-    file_put_contents(
-        $file,
-        file_get_contents($api)
-    );
+    $svg = @file_get_contents($api);
+
+    if ($svg !== false) {
+        file_put_contents($file, $svg);
+    }
 }
