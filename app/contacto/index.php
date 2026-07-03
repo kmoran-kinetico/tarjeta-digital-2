@@ -3,7 +3,11 @@ $slug=$_GET['slug']??'';$list=json_decode(file_get_contents('../data/contacts.js
 $map='https://www.google.com/maps/search/?api=1&query='.urlencode($x['address']);
 $headerPhone=$x['mobile']?:$x['phone'];
 ?>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 
 <link rel="stylesheet" href="/app/css/style.css">
 <div class="card">
