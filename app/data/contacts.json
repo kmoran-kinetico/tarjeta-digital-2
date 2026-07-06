@@ -1,22 +1,5 @@
-[
-    {
-        "slug": "cribas",
-        "company": "Kinetico Spain SLU",
-        "name": "Clara",
-        "lastname": "Ribas ",
-        "role": "Dise\u00f1o Grafico",
-        "mobile": "2424",
-        "phone": "2424",
-        "email": "cribas@kinetico.es",
-        "web": "",
-        "address": "",
-        "logo": "\/app\/uploads\/logos\/cribas.png",
-        "photo": "\/app\/uploads\/photos\/cribas.jpg",
-        "linkedin": "",
-        "instagram": "",
-        "tiktok": ""
-    },
-    {
+{
+    "1": {
         "slug": "kmoran",
         "company": "Kinetico",
         "name": "Kevin",
@@ -32,5 +15,56 @@
         "linkedin": "",
         "instagram": "",
         "tiktok": ""
+    },
+    "2": {
+        "slug": "test",
+        "company": "Knetico",
+        "name": "Test",
+        "lastname": "Test",
+        "role": "Test",
+        "mobile": "654565448",
+        "phone": "684684858",
+        "email": "test@test.com",
+        "web": "",
+        "address": "",
+        "logo": "",
+        "photo": "",
+        "linkedin": "",
+        "instagram": "",
+        "tiktok": ""
+    },
+    "3": {
+        "slug": "cribas",
+        "company": "Kinetico Spain SLU",
+        "name": "Clara",
+        "lastname": "Ribas ",
+        "role": "Dise\u00f1o Grafico",
+        "mobile": "2424",
+        "phone": "2424",
+        "email": "cribas@kinetico.es",
+        "web": "",
+        "address": "",
+        "logo": "\/app\/uploads\/logos\/cribas.png",
+        "photo": "\/app\/uploads\/photos\/cribas.jpg",
+        "linkedin": "test",
+        "instagram": "@runbott",
+        "tiktok": "@alex"
+    },
+    "4": {
+        "slug": "duplicado",
+        "company": "Kinetico",
+        "name": "Prueba",
+        "lastname": "Duplicado",
+        "role": "Dise\u00f1o",
+        "mobile": "",
+        "phone": "",
+        "email": "duplicado@gmial.com",
+        "web": "Kinetico.eu",
+        "address": "c\/Aigufreda 14 L'ametlla del Valles",
+        "logo": "",
+        "photo": "",
+        "linkedin": "",
+        "instagram": "",
+        "tiktok": ""
     }
-]
+}

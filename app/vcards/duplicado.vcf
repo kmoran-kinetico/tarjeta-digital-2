@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Duplicado;Prueba;;;
+FN:Prueba Duplicado
+ORG:Kinetico
+TITLE:Diseño
+TEL;TYPE=CELL:
+TEL;TYPE=WORK:
+EMAIL:duplicado@gmial.com
+ADR:;;c/Aigufreda 14 L'ametlla del Valles;;;;
+END:VCARD

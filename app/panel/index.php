@@ -94,7 +94,6 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 >
 <ul id="contactList">
 <?php foreach($list as $c):?><li><?=$c['name']?> <?=$c['lastname']?> - <?=$c['company']?> | <a href="/app/contacto/?slug=<?=$c['slug']?>" target="_blank">Ver</a> | <a href="/app/qrs/<?=$c['slug']?>.svg" download>QR SVG</a> | <a href="/app/panel/?edit=<?=$c['slug']?>">Editar</a> | <a href="/app/panel/?duplicate=<?=$c['slug']?>">Duplicar</a></li><?php endforeach;?>
-
 </ul>
 <script>
 document.getElementById('searchContact').addEventListener('keyup', function () {
