@@ -6,7 +6,7 @@ function generateQR(string $slug)
         mkdir("../qrs", 0777, true);
     }
 
-    $url = "https://glowing-space-garbanzo-wvv9769rwx7gcg64r-8000.app.github.dev/app/contacto/?slug=" . $slug;
+    $url = "https://glowing-space-garbanzo-wvv9769rwx7gcg64r-8080.app.github.dev/app/contacto/?slug=" . $slug;
 
     $file = "../qrs/$slug.svg";
 
