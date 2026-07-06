@@ -218,6 +218,22 @@ a.btn:visited{
     cursor:pointer;
 }
 
+.btn-cancel{
+    display:block;
+    text-align:center;
+    padding:10px;
+    border:2px solid #0083b3;
+    border-radius:9999px;
+    text-decoration:none;
+    color:#555;
+    
+}
+
+.btn-cancel:hover{
+    background:#eee;
+}
+
+
 /* MÓVIL */
 
 @media (max-width:450px){
