@@ -83,5 +83,22 @@
         "linkedin": "test",
         "instagram": "@runbott",
         "tiktok": "@alex"
+    },
+    "7": {
+        "slug": "cblanco",
+        "company": "Kinetico",
+        "name": "Carlos",
+        "lastname": "Blanco",
+        "role": "IT",
+        "mobile": "65485452",
+        "phone": "8548745",
+        "email": "cblanco@kinetico.es",
+        "web": "",
+        "address": "",
+        "logo": "\/app\/uploads\/logos\/cblanco.png",
+        "photo": "",
+        "linkedin": "",
+        "instagram": "",
+        "tiktok": ""
     }
 }

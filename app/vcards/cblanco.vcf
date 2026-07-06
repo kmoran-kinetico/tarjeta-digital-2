@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Blanco;Carlos;;;
+FN:Carlos Blanco
+ORG:Kinetico
+TITLE:IT
+TEL;TYPE=CELL:65485452
+TEL;TYPE=WORK:8548745
+EMAIL:cblanco@kinetico.es
+ADR:;;;;;;
+END:VCARD
