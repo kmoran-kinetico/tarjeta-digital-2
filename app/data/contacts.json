@@ -33,23 +33,6 @@
         "instagram": "",
         "tiktok": ""
     },
-    "3": {
-        "slug": "cribas",
-        "company": "Kinetico Spain SLU",
-        "name": "Clara",
-        "lastname": "Ribas ",
-        "role": "Dise\u00f1o Grafico",
-        "mobile": "2424",
-        "phone": "2424",
-        "email": "cribas@kinetico.es",
-        "web": "",
-        "address": "",
-        "logo": "\/app\/uploads\/logos\/cribas.png",
-        "photo": "\/app\/uploads\/photos\/cribas.jpg",
-        "linkedin": "test",
-        "instagram": "@runbott",
-        "tiktok": "@alex"
-    },
     "4": {
         "slug": "duplicado",
         "company": "Kinetico",
@@ -66,5 +49,39 @@
         "linkedin": "",
         "instagram": "",
         "tiktok": ""
+    },
+    "5": {
+        "slug": "pbaigorria",
+        "company": "Runbott",
+        "name": "Pedro",
+        "lastname": "Baiggorria",
+        "role": "Dise\u00f1o",
+        "mobile": "",
+        "phone": "",
+        "email": "pbaigorria@kinetico.es",
+        "web": "",
+        "address": "",
+        "logo": "\/app\/uploads\/logos\/pbaigorria.png",
+        "photo": "",
+        "linkedin": "",
+        "instagram": "",
+        "tiktok": ""
+    },
+    "6": {
+        "slug": "cribas",
+        "company": "Kinetico Spain SLU",
+        "name": "Clara",
+        "lastname": "Ribas ",
+        "role": "Dise\u00f1o Grafico",
+        "mobile": "2424",
+        "phone": "2424",
+        "email": "cribas@kinetico.es",
+        "web": "",
+        "address": "",
+        "logo": "\/app\/uploads\/logos\/cribas.png",
+        "photo": "\/app\/uploads\/photos\/cribas.jpg",
+        "linkedin": "test",
+        "instagram": "@runbott",
+        "tiktok": "@alex"
     }
 }

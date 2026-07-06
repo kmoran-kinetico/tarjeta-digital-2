@@ -76,8 +76,24 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 <input name="web" placeholder="Web" value="<?=$cur['web']??''?>">
 <label><strong>Logo de la empresa</strong><br><small>PNG o SVG · Transparente recomendado</small></label>
 <input type="file" name="logo" accept="image/*">
+
+<?php if(!empty($cur['logo'])): ?>
+<img
+    src="<?=$cur['logo']?>"
+    style="width:t:cover;max-width:150px;max-height:80px;background-color:#0b2c3d;"
+>
+<?php endif; ?>
+
 <label><strong>Foto de perfil</strong><br><small>JPG o PNG · Se mostrará recortada en círculo</small></label>
 <input type="file" name="photo" accept="image/*">
+
+<?php if(!empty($cur['photo'])): ?>
+<img
+    src="<?=$cur['photo']?>"
+    style="width:t:cover;max-width:150px;max-height:80px;"
+>
+<?php endif; ?>
+
 <input name="linkedin" placeholder="LinkedIn" value="<?=$cur['linkedin']??''?>">
 <input name="instagram" placeholder="Instagram" value="<?=$cur['instagram']??''?>">
 <input name="tiktok" placeholder="TikTok" value="<?=$cur['tiktok']??''?>">
